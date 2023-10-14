@@ -1,0 +1,17 @@
+# server port config
+server:
+  port: 8001
+
+
+# DB oracle diver config
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521/xe
+    username: C##BOARD
+    password: BOARD
+
+# devtools config
+
+
+
